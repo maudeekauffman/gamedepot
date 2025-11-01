@@ -1,61 +1,101 @@
 {
-  "users": [
+  "games": [
     {
-      "last_name": "Smith",
-      "first_name": "Ferdinand",
-      "email": "f.smith@example.com",
+      "title": "Battlefield 6",
+      "release_date": "10-Oct-2025",
+      "category": "first person shooter",
+      "price": "$69.99",
+      "publisher": "Electronic Arts",
       "id": 1
     },
     {
-      "last_name": "Jones",
-      "first_name": "Jill",
-      "email": "j.jones@example.com",
+      "title": "Mechabellum",
+      "release_date": "26-Sep-2024",
+      "category": "real-time strategy",
+      "price": "$14,79",
+      "publisher": "Dreamhaven",
       "id": 2
     },
     {
-      "last_name": "Martinez",
-      "first_name": "Marty",
-      "email": "m.martinez@example.com",
+      "title": "Cities Skylines II",
+      "release_date": "24-Oct-2025",
+      "category": "city builder",
+      "price": "$39.99",
+      "publisher": "Paradox Interactive",
       "id": 3
     },
     {
-      "last_name": "Bailey",
-      "first_name": "Bill",
-      "email": "b.bailey@example.com",
-      "id": 4
+     "title": "Manor Lords",
+     "release_date": "26-Apr-2024",
+     "category": "city builder",
+     "price": "$39.99",
+     "publisher": "Hooded Horse",
+     "id": 4
+    },
+    {
+     "title": "Ground of Aces",
+     "release_date": "10-Jul-2025",
+     "category": "simulation",
+     "price": "$24.50",
+     "publisher": "Blindflug Studios AG",
+     "id": 4
     }
   ],
-  "tasks": [
+  "developers": [
     {
-      "user_id": 1,
-      "title": "Grocery shopping",
-      "description": "eggs, bacon, gummy bears",
-      "due_date": "2025-02-20T17:00",
-      "warning": "-10",
+      "name": "Battlefield Studios",
+      "related_game": "Battlefield 6",
+      "category": "AAA games",
       "id": 1
     },
     {
-      "user_id": 1,
-      "title": "Piano recital",
-      "description": "Daughter's first concert appearance",
-      "due_date": "2025-04-02T15:00",
-      "warning": "-30",
+      "name": "Game River",
+      "related_game": "Mechabellum",
+      "category": "Indie",
       "id": 2
     },
     {
-      "user_id": 2,
-      "title": "Oil change",
-      "description": "5K auto service",
-      "due_date": "2025-03-10T09:00",
-      "warning": "-60",
+      "name": "Colossal Order",
+      "related_game": "Cities Skylines II",
+      "category": "AAA games",
       "id": 3
     },
+     {
+      "name": "Slavic Magic",
+      "related_game": "Manor Lords",
+      "category": "Indie",
+      "id": 4
+    },
     {
-      "user_id": 3,
-      "title": "Get shots for dog",
-      "description": "Annual vaccinations for poochy",
-      "due_date": "2025-05-11T14:00",
-      "warning": "-20",
+      "name": "Blindflug Studios AG",
+      "related_game": "Ground of Aces",
+      "category": "Indie",
+      "id": 5
+    }
+  ],
+   "genre": [
+    {
+      "name": "first person shooter",
+      "description": "From a first person view, you are fighting and shooting at players or AI-controlled non-player characters",
+      "suggested_games": "Battiefield 6, Call of Duty Warzone, Apex Legends, Counter-Strike 2",
+      "id": 1
+    },
+    {
+      "name": "real-time strategy",
+      "description": "From a top-down view, you are building a base and trying to destroy the opponents' base",
+      "suggested_games": "Starcraft 2, League of Legends, DOTA",
+      "id": 2
+    },
+    {
+      "name": "city builder",
+      "description": "From a top-down view, you are building and growing a city - usually these are economic simulators, but some games can contain combat",
+      "suggested_games": "Civilization 7, Age of Empires IV, Company of Heroes 3",
+      "id": 3
+    },
+     {
+      "name": "simulation",
+      "description": "Something that simulates a world, usually quite in-depth management simulations have this type of gameplay",
+      "suggested_games": "Ground of Aces, PowerWash Simulator 2, Kingmakers ",
       "id": 4
     }
   ]
