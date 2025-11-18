@@ -44,9 +44,11 @@ When run locally for testing, the `{base_url}` is generally `http://localhost:30
 
 ### Available resources
 
-* **games** - Information about video games including title, release date, category, price, and publisher
-* **developers** - Information about game development studios
-* **publishers** - Information about game publishers
+* [**games**](api/games.md) - Information about video games including title, release date, category, price, and publisher
+  * [Get all games](api/games-get-all-games.md)
+  * [Get game by ID](api/games-get-game-by-id.md)
+* **developers** - Information about game development studios *(coming soon)*
+* **publishers** - Information about game publishers *(coming soon)*
 
 ### Common operations
 
