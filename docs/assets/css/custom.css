@@ -1,44 +1,55 @@
-/* GameDepot Custom Snowflake-inspired Colors */
+/* GameDepot Custom Snowflake-inspired Light Theme */
 
-/* White background */
-body {
+/* White background everywhere */
+body,
+.main-content,
+.side-bar {
   background-color: #ffffff !important;
 }
 
-/* Dark navy sidebar */
+/* Dark navy sidebar border/accent */
 .side-bar {
-  background-color: #0e1b3d !important;
+  border-right: 1px solid #e5e7eb !important;
 }
 
-/* White text in sidebar */
-.side-bar .nav-list .nav-list-item a {
-  color: #ffffff !important;
+/* Dark text in sidebar */
+.side-bar .nav-list .nav-list-item a,
+.side-bar .site-title {
+  color: #1f1f1f !important;
 }
 
-/* Bright blue links */
-a {
+/* Bright blue for active/hover links in sidebar */
+.side-bar .nav-list .nav-list-item a:hover,
+.side-bar .nav-list .nav-list-item.active > a {
+  background-color: #f5f7fa !important;
+  color: #29b5e8 !important;
+}
+
+/* Bright blue links in content */
+.main-content a {
   color: #29b5e8 !important;
 }
 
 /* Dark text */
-.main-content {
+.main-content,
+.main-content h1,
+.main-content h2,
+.main-content h3 {
   color: #1f1f1f !important;
 }
 
-/* Code blocks - dark blue-gray */
-code {
+/* Code blocks - dark blue-gray background */
+code,
+pre {
   background-color: #1e293b !important;
   color: #e5e7eb !important;
-}
-
-/* Light gray borders */
-.main-content table,
-.main-content th,
-.main-content td {
-  border-color: #e5e7eb !important;
 }
 
 /* Light gray table backgrounds */
 .main-content table {
   background-color: #f5f7fa !important;
+}
+
+.main-content th {
+  background-color: #e5e7eb !important;
 }
