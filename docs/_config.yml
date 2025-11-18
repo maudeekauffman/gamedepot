@@ -1,7 +1,9 @@
 title: GameDepot API
 color_scheme: gamedepot
+baseurl: /gamedepot
+
 aux_links:
-  "Quick Start": "/"
-  "Games Resource": "/api/games"
-  "Get All Games": "/api/games-get-all-games"
-  "Get Game by ID": "/api/games-get-game-by-id"
+  "Quick Start": "https://maudeekauffman.github.io/gamedepot/"
+  "Games Resource": "https://maudeekauffman.github.io/gamedepot/api/games"
+  "Get All Games": "https://maudeekauffman.github.io/gamedepot/api/games-get-all-games"
+  "Get Game by ID": "https://maudeekauffman.github.io/gamedepot/api/games-get-game-by-id"
