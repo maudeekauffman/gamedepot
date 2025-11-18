@@ -1,6 +1,6 @@
 title: GameDepot API
 remote_theme: just-the-docs/just-the-docs
-color_scheme: gamedepot
+color_scheme: dark
 baseurl: /gamedepot
 
 aux_links:
