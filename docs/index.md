@@ -56,4 +56,3 @@ When run locally for testing, the `{base_url}` is generally `http://localhost:30
 * Get a specific game: `GET {base_url}/games/{id}`
 * Get all developers: `GET {base_url}/developers`
 * Get all publishers: `GET {base_url}/publishers`
-
