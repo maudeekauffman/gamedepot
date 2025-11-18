@@ -1,1 +1,6 @@
-title: To-Do service API
+title: GameDepot API
+aux_links:
+  "Quick Start": "/"
+  "Games Resource": "/api/games"
+  "Get All Games": "/api/games-get-all-games"
+  "Get Game by ID": "/api/games-get-game-by-id"
