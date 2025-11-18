@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Games Resource
+parent: API Reference
+nav_order: 1
 ---
 
 # games resource

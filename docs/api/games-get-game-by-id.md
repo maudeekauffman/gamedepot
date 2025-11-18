@@ -1,5 +1,8 @@
 ---
-layout: page
+layout: page  
+title: Get Game by ID
+parent: API Reference
+nav_order: 3
 ---
 
 # Get game by ID

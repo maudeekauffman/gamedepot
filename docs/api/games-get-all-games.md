@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Get All Games
+parent: API Reference
+nav_order: 2
 ---
 
 # Get all games
