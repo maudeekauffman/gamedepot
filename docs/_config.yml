@@ -1,4 +1,5 @@
 title: GameDepot API
+color_scheme: gamedepot
 aux_links:
   "Quick Start": "/"
   "Games Resource": "/api/games"
