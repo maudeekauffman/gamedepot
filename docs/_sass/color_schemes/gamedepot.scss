@@ -1,13 +1,23 @@
 // GameDepot - Professional Snowflake-inspired theme
-$body-background-color: #FFFFFF;
-$sidebar-color: #0E1B3D;
-$body-text-color: #1F1F1F;
-$body-heading-color: #1F1F1F;
-$link-color: #29B5E8;
-$nav-child-link-color: #FFFFFF;
-$btn-primary-color: #29B5E8;
-$base-button-color: #29B5E8;
-$code-background-color: #1E293B;
-$border-color: #E5E7EB;
-$search-background-color: #F5F7FA;
-$table-background-color: #F5F7FA;
+
+// Backgrounds
+$body-background-color: #ffffff !default;
+$sidebar-color: #0e1b3d !default;
+$code-background-color: #1e293b !default;
+$table-background-color: #f5f7fa !default;
+
+// Text colors
+$body-text-color: #1f1f1f !default;
+$body-heading-color: #1f1f1f !default;
+$nav-child-link-color: #ffffff !default;
+$link-color: #29b5e8 !default;
+
+// Buttons and accents
+$btn-primary-color: #29b5e8 !default;
+$base-button-color: #f5f7fa !default;
+
+// Borders
+$border-color: #e5e7eb !default;
+
+// Search
+$search-background-color: #f5f7fa !default;

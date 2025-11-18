@@ -1,0 +1,44 @@
+/* GameDepot Custom Snowflake-inspired Colors */
+
+/* White background */
+body {
+  background-color: #ffffff !important;
+}
+
+/* Dark navy sidebar */
+.side-bar {
+  background-color: #0e1b3d !important;
+}
+
+/* White text in sidebar */
+.side-bar .nav-list .nav-list-item a {
+  color: #ffffff !important;
+}
+
+/* Bright blue links */
+a {
+  color: #29b5e8 !important;
+}
+
+/* Dark text */
+.main-content {
+  color: #1f1f1f !important;
+}
+
+/* Code blocks - dark blue-gray */
+code {
+  background-color: #1e293b !important;
+  color: #e5e7eb !important;
+}
+
+/* Light gray borders */
+.main-content table,
+.main-content th,
+.main-content td {
+  border-color: #e5e7eb !important;
+}
+
+/* Light gray table backgrounds */
+.main-content table {
+  background-color: #f5f7fa !important;
+}
