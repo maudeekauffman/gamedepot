@@ -7,45 +7,58 @@ body,
   background-color: #ffffff !important;
 }
 
-/* Dark navy sidebar border/accent */
+/* Dark navy sidebar border */
 .side-bar {
   border-right: 1px solid #e5e7eb !important;
 }
 
 /* Dark text in sidebar */
-.side-bar .nav-list .nav-list-item a,
-.side-bar .site-title {
+.side-bar .nav-list .nav-list-item > a,
+.side-bar .site-title,
+.side-bar .site-header {
   color: #1f1f1f !important;
 }
 
-/* Bright blue for active/hover links in sidebar */
-.side-bar .nav-list .nav-list-item a:hover,
-.side-bar .nav-list .nav-list-item.active > a {
-  background-color: #f5f7fa !important;
+/* Bright blue for sidebar links */
+.side-bar .nav-list .nav-list-item > a {
   color: #29b5e8 !important;
 }
 
-/* Bright blue links in content */
-.main-content a {
+/* Light gray hover state */
+.side-bar .nav-list .nav-list-item > a:hover {
+  background-color: #f5f7fa !important;
+}
+
+/* Bright blue links EVERYWHERE */
+a,
+a:link,
+a:visited,
+.main-content a,
+.main-content a:link,
+.main-content a:visited,
+.nav-list .nav-list-item > a {
   color: #29b5e8 !important;
 }
 
 /* Dark text */
 .main-content,
+.main-content p,
 .main-content h1,
 .main-content h2,
-.main-content h3 {
+.main-content h3,
+.main-content li {
   color: #1f1f1f !important;
 }
 
-/* Code blocks - dark blue-gray background */
+/* Code blocks */
 code,
-pre {
+pre,
+.highlight {
   background-color: #1e293b !important;
   color: #e5e7eb !important;
 }
 
-/* Light gray table backgrounds */
+/* Tables */
 .main-content table {
   background-color: #f5f7fa !important;
 }
