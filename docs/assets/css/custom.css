@@ -1,4 +1,4 @@
-/* GameDepot Custom Snowflake-inspired Light Theme */
+/* GameDepot Custom*/
 
 /* White background everywhere */
 body,
@@ -68,9 +68,9 @@ pre,
 }
 
 /* Game images in table */
-.main-content table img {
-  width: 150px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 4px;
+.main-content table td img {
+  width: 150px !important;
+  height: 100px !important;
+  object-fit: cover !important;
+  border-radius: 4px !important;
 }
