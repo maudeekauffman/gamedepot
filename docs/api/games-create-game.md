@@ -32,7 +32,7 @@ A JSON object containing the game properties.
 | -------- | ---- | -------- | ----------- |
 | title | string | Yes | The name of the game |
 | release_date | string | Yes | Release date in DD-MMM-YYYY format |
-| category | string | Yes | Game genre (e.g., "first person shooter", "real-time strategy") |
+| category | string | Yes | Game genre (e.g., "first person shooter," "real-time strategy") |
 | price | string | Yes | Price including currency symbol (e.g., "$59.99") |
 | publisher | string | Yes | Name of the game publisher |
 

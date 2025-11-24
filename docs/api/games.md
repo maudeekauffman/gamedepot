@@ -32,7 +32,7 @@ Sample `games` resource:
 | ------------- | ----------- | ----------- |
 | `title` | string | The name of the game |
 | `release_date` | string | When the game was released |
-| `category` | string | The game's genre (e.g., "first person shooter", "city builder") |
+| `category` | string | The game's genre (e.g., "first person shooter," "city builder") |
 | `price` | string | Current retail price |
 | `publisher` | string | Company that published the game |
 | `id` | number | Unique identifier for the game |
