@@ -48,7 +48,11 @@ You should receive a JSON response with details about the first game in the data
 
 ## Tutorials
 
-* [Add a new game](tutorials/add-a-game.md) - Learn how to add a game to the database using Postman
+## Tutorials
+
+* [Add a new game](tutorials/add-a-game.md) - Learn how to add a game to the database using Postman.
+* [Update a game](tutorials/update-a-game.md) - Learn how to update an existing game using Postman.
+* [Delete a game](tutorials/delete-a-game.md) - Learn how to delete a game from the database using Postman.
 
 ## API reference docs
 
