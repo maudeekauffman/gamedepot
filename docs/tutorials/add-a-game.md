@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Tutorial: Add a New Game"
-nav_order: 3
+title: Add a New Game
+parent: Tutorials
+nav_order: 1
 ---
 
 # Tutorial: Add a new game
