@@ -20,21 +20,35 @@ Get started with GameDepot by retrieving your first game!
 * json-server version 0.17.4
 * Postman desktop app
 
-### Getting your first game
+### Set up the database
 
-1. Start the GameDepot API server locally:
+1. Clone the GameDepot repository:
+```bash
+   git clone https://github.com/maudeekauffman/gamedepot.git
+   cd gamedepot
+```
+
+   Or [download the database file directly](https://raw.githubusercontent.com/maudeekauffman/gamedepot/main/to-do-db-source.json) and save it to your working directory.
+
+2. Start the GameDepot API server:
 ```bash
    json-server --watch to-do-db-source.json
 ```
 
-2. In Postman, create a new GET request to:
+### Get your first game
+
+3. In Postman, create a new GET request to:
 ```
    http://localhost:3000/games/1
 ```
 
-3. Click **Send**
+4. Click **Send**
 
 You should receive a JSON response with details about the first game in the database!
+
+## Tutorials
+
+* [Add a new game](tutorials/add-a-game.md) - Learn how to add a game to the database using Postman
 
 ## API reference docs
 
@@ -47,8 +61,9 @@ When run locally for testing, the `{base_url}` is generally `http://localhost:30
 * [**games**](api/games.md) - Information about video games including title, release date, category, price, and publisher
   * [Get all games](api/games-get-all-games.md)
   * [Get game by ID](api/games-get-game-by-id.md)
-* **developers** - Information about game development studios *(coming soon)*
-* **publishers** - Information about game publishers *(coming soon)*
+  * [Create a game](api/games-create-game.md)
+  * [Update a game](api/games-update-game.md)
+  * [Delete a game](api/games-delete-game.md)
 
 ### Common operations
 
