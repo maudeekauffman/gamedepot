@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Tutorial: Delete a Game"
-nav_order: 5
+title: Delete a Game
+parent: Tutorials
+nav_order: 3
 ---
 
 # Tutorial: Delete a game
