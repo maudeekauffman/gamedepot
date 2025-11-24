@@ -18,7 +18,7 @@ Contains information about video games in the GameDepot database.
 
 | | | | | |
 |:---:|:---:|:---:|:---:|:---:|
-| ![Battlefield 6](../assets/images/battlefield.jpg) | ![Mechabellum](../assets/images/mechabellum.jpg) | ![Cities Skylines II](../assets/images/cities-skylines.jpg) | ![Manor Lords](../assets/images/manor-lords.jpg) | ![Ground of Aces](../assets/images/ground-of-aces.jpg) |
+| ![Battlefield 6](../assets/images/battlefield.jpeg) | ![Mechabellum](../assets/images/mechabellum.jpeg) | ![Cities Skylines II](../assets/images/cities-skylines.png) | ![Manor Lords](../assets/images/manor-lords.jpg) | ![Ground of Aces](../assets/images/ground-of-aces.jpg) |
 | Battlefield 6 | Mechabellum | Cities Skylines II | Manor Lords | Ground of Aces |
 
 ## Resource properties
