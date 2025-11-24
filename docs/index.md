@@ -1,5 +1,7 @@
 ---
 layout: page
+title: GameDepot API
+nav_order: 1
 ---
 
 ![GameDepot API - The Definitive Game Data Source](assets/images/hero.png)
