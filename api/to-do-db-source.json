@@ -6,14 +6,16 @@
       "category": "first person shooter",
       "price": "$69.99",
       "publisher": "Electronic Arts",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Battlefield_1_logo.png/220px-Battlefield_1_logo.png",
       "id": 1
     },
     {
       "title": "Mechabellum",
       "release_date": "26-Sep-2024",
       "category": "real-time strategy",
-      "price": "$14,79",
+      "price": "$14.79",
       "publisher": "Dreamhaven",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/669330/header.jpg",
       "id": 2
     },
     {
@@ -22,23 +24,26 @@
       "category": "city builder",
       "price": "$39.99",
       "publisher": "Paradox Interactive",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/header.jpg",
       "id": 3
     },
     {
-     "title": "Manor Lords",
-     "release_date": "26-Apr-2024",
-     "category": "city builder",
-     "price": "$39.99",
-     "publisher": "Hooded Horse",
-     "id": 4
+      "title": "Manor Lords",
+      "release_date": "26-Apr-2024",
+      "category": "city builder",
+      "price": "$39.99",
+      "publisher": "Hooded Horse",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg",
+      "id": 4
     },
     {
-     "title": "Ground of Aces",
-     "release_date": "10-Jul-2025",
-     "category": "simulation",
-     "price": "$24.50",
-     "publisher": "Blindflug Studios AG",
-     "id": 4
+      "title": "Ground of Aces",
+      "release_date": "10-Jul-2025",
+      "category": "simulation",
+      "price": "$24.50",
+      "publisher": "Blindflug Studios AG",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1234567/header.jpg",
+      "id": 5
     }
   ],
   "developers": [
@@ -60,43 +65,7 @@
       "category": "AAA games",
       "id": 3
     },
-     {
+    {
       "name": "Slavic Magic",
       "related_game": "Manor Lords",
-      "category": "Indie",
-      "id": 4
-    },
-    {
-      "name": "Blindflug Studios AG",
-      "related_game": "Ground of Aces",
-      "category": "Indie",
-      "id": 5
-    }
-  ],
-   "genre": [
-    {
-      "name": "first person shooter",
-      "description": "From a first person view, you are fighting and shooting at players or AI-controlled non-player characters",
-      "suggested_games": "Battiefield 6, Call of Duty Warzone, Apex Legends, Counter-Strike 2",
-      "id": 1
-    },
-    {
-      "name": "real-time strategy",
-      "description": "From a top-down view, you are building a base and trying to destroy the opponents' base",
-      "suggested_games": "Starcraft 2, League of Legends, DOTA",
-      "id": 2
-    },
-    {
-      "name": "city builder",
-      "description": "From a top-down view, you are building and growing a city - usually these are economic simulators, but some games can contain combat",
-      "suggested_games": "Civilization 7, Age of Empires IV, Company of Heroes 3",
-      "id": 3
-    },
-     {
-      "name": "simulation",
-      "description": "Something that simulates a world, usually quite in-depth management simulations have this type of gameplay",
-      "suggested_games": "Ground of Aces, PowerWash Simulator 2, Kingmakers ",
-      "id": 4
-    }
-  ]
-}
+      "category":

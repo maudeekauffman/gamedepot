@@ -39,6 +39,7 @@ Example:
     "category": "first person shooter",
     "price": "$69.99",
     "publisher": "Electronic Arts",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Battlefield_1_logo.png/220px-Battlefield_1_logo.png",
     "id": 1
   },
   {
@@ -47,6 +48,7 @@ Example:
     "category": "real-time strategy",
     "price": "$14.79",
     "publisher": "Dreamhaven",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/669330/header.jpg",
     "id": 2
   }
 ]

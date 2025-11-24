@@ -48,7 +48,8 @@ http://localhost:3000/games
   "release_date": "12-May-2023",
   "category": "action-adventure",
   "price": "$69.99",
-  "publisher": "Nintendo"
+  "publisher": "Nintendo",
+  "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header.jpg"
 }
 ```
 
@@ -64,7 +65,8 @@ http://localhost:3000/games
   "category": "action-adventure",
   "price": "$69.99",
   "publisher": "Nintendo",
-  "id": 5
+  "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header.jpg",
+  "id": 6
 }
 ```
 

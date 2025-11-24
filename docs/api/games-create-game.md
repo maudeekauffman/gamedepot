@@ -35,6 +35,7 @@ A JSON object containing the game properties.
 | category | string | Yes | Game genre (e.g., "first person shooter," "real-time strategy") |
 | price | string | Yes | Price including currency symbol (e.g., "$59.99") |
 | publisher | string | Yes | Name of the game publisher |
+| image | string | No | URL to the game's cover image |
 
 Example:
 ```json
@@ -43,7 +44,8 @@ Example:
   "release_date": "06-Sep-2023",
   "category": "role-playing game",
   "price": "$69.99",
-  "publisher": "Bethesda Softworks"
+  "publisher": "Bethesda Softworks",
+  "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/header.jpg"
 }
 ```
 
@@ -59,7 +61,8 @@ Example:
   "category": "role-playing game",
   "price": "$69.99",
   "publisher": "Bethesda Softworks",
-  "id": 5
+  "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/header.jpg",
+  "id": 6
 }
 ```
 

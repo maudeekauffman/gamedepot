@@ -37,6 +37,7 @@ A JSON object containing all game properties (PUT replaces the entire resource).
 | category | string | Yes | Game genre (e.g., "first person shooter," "real-time strategy") |
 | price | string | Yes | Price including currency symbol (e.g., "$59.99") |
 | publisher | string | Yes | Name of the game publisher |
+| image | string | No | URL to the game's cover image |
 
 Example:
 ```json
@@ -45,7 +46,8 @@ Example:
   "release_date": "10-Oct-2025",
   "category": "first person shooter",
   "price": "$49.99",
-  "publisher": "Electronic Arts"
+  "publisher": "Electronic Arts",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Battlefield_1_logo.png/220px-Battlefield_1_logo.png"
 }
 ```
 
@@ -61,6 +63,7 @@ Example:
   "category": "first person shooter",
   "price": "$49.99",
   "publisher": "Electronic Arts",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Battlefield_1_logo.png/220px-Battlefield_1_logo.png",
   "id": 1
 }
 ```
