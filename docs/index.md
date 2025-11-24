@@ -2,6 +2,8 @@
 layout: page
 ---
 
+![GameDepot API - The Definitive Game Data Source](assets/images/hero.png)
+
 # GameDepot API
 
 This is a mock API to simulate the REST interface of an imaginary service.
