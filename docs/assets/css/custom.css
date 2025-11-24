@@ -66,3 +66,11 @@ pre,
 .main-content th {
   background-color: #e5e7eb !important;
 }
+
+/* Game images in table */
+.main-content table img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
