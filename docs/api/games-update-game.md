@@ -74,5 +74,5 @@ Example:
 | ------------- | ----------- | ----------- |
 | 200 | Success | Game successfully updated |
 | 400 | Bad Request | Invalid or missing request body |
-| 404 | Not Found | Game with specified ID not found |
+| 404 | Error | Game with specified ID not found |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |

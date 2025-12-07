@@ -42,5 +42,5 @@ Example:
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Game successfully deleted |
-| 404 | Not Found | Game with specified ID not found |
+| 404 | Error | Game with specified ID not found |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |

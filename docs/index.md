@@ -32,11 +32,12 @@ Get started with GameDepot by retrieving your first game!
    cd gamedepot
 ```
 
-   Or [download the database file directly](https://raw.githubusercontent.com/maudeekauffman/gamedepot/main/to-do-db-source.json) and save it to your working directory.
+   Or [download the database file directly](https://raw.githubusercontent.com/maudeekauffman/gamedepot/main/gamedepot-db-source.json) and save it to your working directory.
 
 2. Start the GameDepot API server:
 ```bash
-   json-server --watch to-do-db-source.json
+cd gamedepot
+json-server --watch gamedepot-db-source.json
 ```
 
 ### Get your first game
@@ -49,8 +50,6 @@ Get started with GameDepot by retrieving your first game!
 4. Click **Send**
 
 You should receive a JSON response with details about the first game in the database!
-
-## Tutorials
 
 ## Tutorials
 

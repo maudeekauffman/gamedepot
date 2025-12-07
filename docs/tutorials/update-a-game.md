@@ -49,7 +49,7 @@ http://localhost:3000/games/1
 1. Click the **Body** tab.
 2. Select **raw**.
 3. Make sure **JSON** is selected in the drop-down list.
-4. Paste the complete game object with your updates. This example changes the price:
+4. Copy and paste the complete game object with your updates. This example changes the price:
 ```json
 {
   "title": "Battlefield 6",
